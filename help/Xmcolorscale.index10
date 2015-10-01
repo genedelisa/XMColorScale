@@ -1,0 +1,4 @@
+These are the names from rgb.txt. Just click on one to select it.
+
+If the List has focus you can start typing a name and it will do an incremental
+search. The search is reset by pressing Escape or by the list losing focus.

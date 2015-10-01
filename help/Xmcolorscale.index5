@@ -1,0 +1,4 @@
+The colormap will display a matrix of pushbutton with their colors
+corresponding to the appropriate index in the default colormap. Pressing on
+them will display their current colorcell values. You can see the color change
+for fg or bg as you move any of the color scales.

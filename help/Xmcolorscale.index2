@@ -1,0 +1,4 @@
+The 3 color scales will change the appropriate red, green or blue values
+for the selected index (foreground or background) into the colormap. The
+small text field to the right of them will accept a decimal or hex (e.g. 0xFF)
+value to set the scale.

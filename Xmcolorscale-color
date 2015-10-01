@@ -1,0 +1,16 @@
+#include "Xmcolorscale"
+
+*gotColorResfile:			true
+*background:				grey45
+*foreground:				yellow
+*green.foreground:			black
+*mainWin*highlightColor:		gold2
+*version*foreground:			black
+*red.background:			red
+*green.background:			green
+*blue.background:			blue
+*XmText.background:			grey25
+*XmText.foreground:			yellow
+*XmList.background:			grey25
+*XmList.foreground:			yellow
+*XmScale.foreground:			white

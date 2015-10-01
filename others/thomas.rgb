@@ -1,0 +1,72 @@
+  0   0   0		black
+255 255 255		white
+255   0   0		red
+  0 255   0		green
+  0   0 255		blue
+  0 255 255		cyan
+255   0 211		magenta
+255 255   0		yellow
+255 138   0		orange
+159 211   0		green yellow
+  0 255 159		spring green
+  0 138 255		sky blue
+148   0 211		violet
+255   0 148		violet red
+105 105 105		dim gray
+174 174 174		gray
+174 174 174		grey
+211 211 211		light grey
+211 211 211		light gray
+105 105 105		dim grey
+199  21 133		medium violet red
+114  33 188		blue violet
+218 107 212		orchid
+172  77 166		medium orchid
+106  37 102		dark orchid
+103   7  72		maroon
+ 76  46  87		plum
+146  62 112		thistle
+171 197 255		light blue
+ 61  98 208		medium blue
+100 149 237		cornflower blue
+  0   0 142		navy blue
+  0   0 142		navy
+ 12  62  99		midnight blue
+ 72 209 204		turquoise
+ 62 172 181		medium turquoise
+ 29 111 117		dark turquoise
+ 52 152 202		light steel blue
+ 55 121 153		steel blue
+126 125 160		cadet blue
+117 134 190		slate blue
+ 95 109 154		medium slate blue
+ 51  62  99		dark slate blue
+ 60  64  74		dark slate grey
+ 60  64  74		dark slate gray
+  0  83   0		dark green
+ 79  79  47		dark olive green
+ 85 192  52		forest green
+107 142  35		medium forest green
+ 46 155  28		lime green
+ 60 141  35		medium spring green
+152 255 152		pale green
+ 43 167 112		sea green
+ 27 134  86		medium sea green
+ 41 171 151		aquamarine
+ 21 135 118		medium aquamarine
+ 75 211   0		yellow green
+254 197  68		gold
+184 134  11		medium goldenrod
+218 165  32		goldenrod
+229 199 117		wheat
+189 167 107		khaki
+176 155 125		tan
+178 143  86		sandy brown
+142 107  35		sienna
+103  67   0		brown
+101  46  46		indian red
+255 174 185		pink
+248 137 117		coral
+248 109 104		salmon
+226  65  42		orange red
+136  18  13		firebrick

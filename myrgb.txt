@@ -1,0 +1,33 @@
+245 255 250		crud
+245 255 250		bozo
+240 255 255		mama
+240 248 255		stud
+230 230 250		lavender
+255 240 245		lavender blush
+255 240 245		LavenderBlush
+255 228 225		misty rose
+255 228 225		MistyRose
+255 255 255		white
+  0   0   0		black
+ 47  79  79		dark slate gray
+ 47  79  79		DarkSlateGray
+ 47  79  79		dark slate grey
+ 47  79  79		DarkSlateGrey
+105 105 105		dim gray
+105 105 105		DimGray
+105 105 105		dim grey
+105 105 105		DimGrey
+112 128 144		slate gray
+112 128 144		SlateGray
+112 128 144		slate grey
+112 128 144		SlateGrey
+119 136 153		light slate gray
+119 136 153		LightSlateGray
+119 136 153		light slate grey
+119 136 153		LightSlateGrey
+192 192 192		gray
+192 192 192		grey
+211 211 211		light grey
+211 211 211		LightGrey
+211 211 211		light gray
+211 211 211		LightGray

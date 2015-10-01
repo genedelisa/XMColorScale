@@ -1,0 +1,395 @@
+*forceNoncolor: True
+
+Xmcolorscale*gotResfile:			        True
+Xmcolorscale*keyboardFocusPolicy:			pointer
+Xmcolorscale*highlightOnEnter:				true
+
+Xmcolorscale*XmTextField.cursorPositionVisible:		false
+Xmcolorscale*XmScale.scaleMultiple:			10
+
+!Xmcolorscale*gang*translations:			#augment <Key> c :centerSliderAction()
+
+Xmcolorscale*redtb.labelString:				Gang red
+Xmcolorscale*greentb.labelString:			Gang green
+Xmcolorscale*bluetb.labelString:			Gang blue
+
+Xmcolorscale*tb1.labelString:				Set Background
+Xmcolorscale*tb2.labelString:				Set Foreground
+Xmcolorscale*tb1.set:					True
+
+Xmcolorscale*text.fontList:				-adobe-courier-medium-r-normal--14-140-75-75-m-90-iso8859-1
+
+Xmcolorscale*list.visibleItemCount:			15
+
+Xmcolorscale*mainWinFileCascade.labelString:		File
+Xmcolorscale*mainWinFileCascade.mnemonic:		F
+Xmcolorscale*mainWinHelpCascade.labelString:		Help
+Xmcolorscale*mainWinHelpCascade.mnemonic:		H
+Xmcolorscale*mainWinOptionCascade.labelString:		Options
+Xmcolorscale*mainWinOptionCascade.mnemonic:		O
+
+Xmcolorscale*versionPB.labelString:			On Version
+Xmcolorscale*versionPB.mnemonic:			V
+Xmcolorscale*versionPB.accelerator:			Ctrl<Key>v
+Xmcolorscale*versionPB.acceleratorText:			Ctrl-v
+
+Xmcolorscale*contextPB.labelString:			On Context
+Xmcolorscale*contextPB.mnemonic:			C
+Xmcolorscale*contextPB.accelerator:			Shift<Key>osfHelp
+Xmcolorscale*contextPB.acceleratorText:			Shift+Help
+
+Xmcolorscale*quitPB.labelString:			Exit
+Xmcolorscale*quitPB.mnemonic:				x
+Xmcolorscale*quitPB.accelerator:			Ctrl<Key>x
+Xmcolorscale*quitPB.acceleratorText:			Ctrl-x
+
+Xmcolorscale*otherWinPB.labelString:			Set another window
+Xmcolorscale*otherWinPB.mnemonic:			S
+Xmcolorscale*otherWinPB.accelerator:			Ctrl<Key>a
+Xmcolorscale*otherWinPB.acceleratorText:		Ctrl-a
+
+Xmcolorscale*personalPB.labelString:			Popup Personal Colors
+Xmcolorscale*personalPB.mnemonic:			P
+Xmcolorscale*personalPB.accelerator:			Ctrl<Key>p
+Xmcolorscale*personalPB.acceleratorText:		Ctrl-p
+
+Xmcolorscale*colormapPB.labelString:			Colormap
+Xmcolorscale*colormapPB.mnemonic:			C
+Xmcolorscale*colormapPB.accelerator:			Ctrl<Key>l
+Xmcolorscale*colormapPB.acceleratorText:		Ctrl-l
+
+Xmcolorscale*stealPB.labelString:			Steal Color
+Xmcolorscale*stealPB.mnemonic:				t
+Xmcolorscale*stealPB.accelerator:			Ctrl<Key>t
+Xmcolorscale*stealPB.acceleratorText:			Ctrl-t
+
+Xmcolorscale*fileOpenCascade.labelString:		Open
+Xmcolorscale*fileOpenCascade.mnemonic:			O
+Xmcolorscale*openPB.labelString:			Open...
+Xmcolorscale*openPB.mnemonic:				O
+Xmcolorscale*openPB.accelerator:			Ctrl<Key>o
+Xmcolorscale*openPB.acceleratorText:			Ctrl-o
+
+Xmcolorscale*fileSaveCascade.labelString:		Save
+Xmcolorscale*fileSaveCascade.mnemonic:			S
+Xmcolorscale*savePB.labelString:			Save...
+Xmcolorscale*savePB.mnemonic:				S
+Xmcolorscale*savePB.accelerator:			Ctrl<Key>s
+Xmcolorscale*savePB.acceleratorText:			Ctrl-s
+
+Xmcolorscale*reallyQuit_popup.reallyQuit.Message.fontList:9x15
+Xmcolorscale*version.Message.fontList:			9x15
+Xmcolorscale*reallyQuit_popup.reallyQuit.OK.labelString:Yes, Quit!
+Xmcolorscale*reallyQuit_popup.reallyQuit.Cancel.labelString:No, Do not Quit!
+
+! strings
+Xmcolorscale*message_popup.title:			Oops!
+
+Xmcolorscale*red.rightAttachment:			attach_position
+Xmcolorscale*red.rightPosition:				60
+Xmcolorscale*red.height:				50
+Xmcolorscale*redtb.leftOffset:				50
+Xmcolorscale*redtext.leftOffset:			25
+
+Xmcolorscale*green.rightAttachment:			attach_position
+Xmcolorscale*green.rightPosition:			60
+Xmcolorscale*green.height:				50
+Xmcolorscale*greentb.leftOffset:			50
+Xmcolorscale*greentext.leftOffset:			25
+
+Xmcolorscale*blue.rightAttachment:			attach_position
+Xmcolorscale*blue.rightPosition:			60
+Xmcolorscale*blue.height:				50
+Xmcolorscale*bluetb.leftOffset:				50
+Xmcolorscale*bluetext.leftOffset:			25
+
+Xmcolorscale*paned.rc.entryBorder:			2
+Xmcolorscale*paned.rc.marginWidth:			10
+Xmcolorscale*paned.rc.marginHeight:			10
+Xmcolorscale*paned.rc.spacing:				10
+
+Xmcolorscale*personalDialog.autoUnmanage:		False
+Xmcolorscale*personalDialog.allowShellResize:		True
+Xmcolorscale*personalDialog.XmForm.width:		1000
+Xmcolorscale*personalDialog.XmForm.height:		1000
+Xmcolorscale*personalDialog.dialogTitle:		Personal colors
+Xmcolorscale*personalList.visibleItemCount :		10
+
+Xmcolorscale*deletePB.labelString :			Delete from list
+Xmcolorscale*readPB.labelString :			Read colors from file
+
+Xmcolorscale*addPB.labelString :			Add to list
+Xmcolorscale*addPB.height :				40
+!Xmcolorscale*addPB.topAttachment :			XmATTACH_OPPOSITE_FORM
+!Xmcolorscale*addPB.topOffset :				-60
+Xmcolorscale*addPB.bottomAttachment :			XmATTACH_FORM
+Xmcolorscale*addPB.bottomOffset :			10
+Xmcolorscale*addPB.leftAttachment :			XmATTACH_FORM
+Xmcolorscale*addPB.leftOffset :				20
+
+Xmcolorscale*selectionDialog_popup.title:		Personal Colors
+!Xmcolorscale*selectionDialog.autoUnmanage:		False
+
+Xmcolorscale*colormapDialog_popup.title:		Default Colormap
+
+
+! you can set the initial list of personal colors with this:
+!Xmcolorscale.personalRgbFile :				foobar
+Xmcolorscale*openPersonalDialog_popup.title:		Read personal rgb file
+
+
+Xmcolorscale*text.value:\n\
+   The Unanimous Declaration of the Thirteen United States of America\n\
+\n\
+      When, in the course of human events, it becomes necessary for one\n\
+   people to dissolve the political bonds which have connected them with\n\
+   another, and to assume among the powers of the earth, the separate\n\
+   and equal station to which the laws of nature and of nature's God\n\
+   entitle them, a decent respect to the opinions of mankind requires that\n\
+   they should declare the causes which impel them to the separation.\n\
+      We hold these truths to be self-evident, that all men are created\n\
+   equal, that they are endowed by their Creator with certain unalienable\n\
+   rights, that among these are life, liberty and the pursuit of happiness.\n\
+   That to secure these rights, governments are instituted among men,\n\
+   deriving their just powers form the consent of the governed. That\n\
+   whenever any form of government becomes destructive to these ends, it is\n\
+   the right of the people to alter or to abolish it, and to institute new\n\
+   government, laying its foundation on such principles and organizing its\n\
+   powers in such form, as to them shall seem most likely to effect their\n\
+   safety and happiness.  Prudence, indeed, will dictate that governments\n\
+   long established should not be changed for light and transient causes;\n\
+   and accordingly all experience hath shown that mankind are more\n\
+   disposed to suffer, while evils are sufferable, than to right themselves by\n\
+   abolishing the forms to which they are accustomed.  But when a long\n\
+   train of abuses and usurpations, pursuing invariably the same object\n\
+   evinces a design to reduce them under absolute despotism, it is their\n\
+   right, it is their duty, to throw off such government, and to provide new\n\
+   guards for their future security.  --Such has been the patient sufferance\n\
+   of these colonies; and such is now the necessity which constrains them\n\
+   to alter their former systems of government.  The history of the present\n\
+   King of Great Britain is a history of repeated injuries and usurpations,\n\
+   all having in direct object the establishment of an absolute tyranny over\n\
+   these states.  To prove this, let facts be submitted to a candid world.\n\
+      He has refused his assent to laws, the most wholesome and necessary\n\
+   for the public good.\n\
+      He has forbidden his governors to pass laws of immediate and\n\
+   pressing importance, unless suspended in their operation till his assent\n\
+   should be obtained; and when so suspended, he has utterly neglected to\n\
+   attend to them.\n\
+      He has refused to pass other laws for the accommodation of large\n\
+   districts of people, unless those people would relinquish the right of\n\
+   representation in the legislature, a right inestimable to them and\n\
+   formidable to tyrants only.\n\
+      He has called together legislative bodies at places unusual,\n\
+   uncomfortable, and distant from the depository of their public records,\n\
+   for the sole purpose of fatiguing them into compliance with his measures.\n\
+      He has dissolved representative houses repeatedly, for opposing with\n\
+   manly firmness his invasions on the rights of the people.\n\
+      He has refused for a long time, after such dissolutions, to cause others\n\
+   to be elected; whereby the legislative powers, incapable of annihilation,\n\
+   have returned to the people at large for their exercise; the state\n\
+   remaining in the meantime exposed to all the dangers of invasion from\n\
+   without, and convulsions within.\n\
+      He has endeavored to prevent the population of these states; for that\n\
+   purpose obstructing the laws for naturalization of foreigners; refusing\n\
+   to pass others to encourage their migration hither,  and raising the\n\
+   conditions of new appropriations of lands.\n\
+      He has obstructed the administration of justice, by refusing his assent\n\
+   to laws for establishing judiciary powers.\n\
+      He has made judges dependent on his will alone, for the tenure of\n\
+   their offices, and the amount and payment of their salaries.\n\
+      He has erected a multitude of new offices, and sent hither swarms of\n\
+   officers to harass our people, and eat out their substance.\n\
+      He has kept among us, in times of peace, standing armies without the\n\
+   consent of our legislature.\n\
+      He has affected to render the military independent of and superior to\n\
+   civil power.\n\
+      He has combined with others to subject us to a jurisdiction foreign to\n\
+   our constitution, and unacknowledged by our laws; giving his assent to\n\
+   their acts of pretended legislation:\n\
+      For quartering large bodies of armed troops among us:\n\
+      For protecting them, by mock trial, from punishment for any murders\n\
+   which  they should commit on the inhabitants of these states:\n\
+      For cutting off our trade with all parts of the world:\n\
+      For imposing taxes on us without our consent:\n\
+      For depriving us in many cases, of the benefits of trial by jury:\n\
+      For transporting us beyond seas to be tried for pretended offenses:\n\
+      For abolishing the free system of English laws in a neighboring\n\
+   province, establishing therein an arbitrary government, and enlarging\n\
+   its boundaries so as to render it at once an example and fit instrument for\n\
+   introducing the same absolute rule in these colonies:\n\
+      For taking away our charters, abolishing our most valuable laws, and\n\
+   altering fundamentally the forms of our governments:\n\
+      For suspending our own legislatures, and declaring themselves\n\
+   invested with power to legislate for us in all cases whatsoever.\n\
+      He has abdicated government here, by declaring us out of his\n\
+   protection and waging war against us.\n\
+      He has plundered our seas, ravaged our coasts, burned our towns,\n\
+   and destroyed the lives of our people.\n\
+      He is at this time transporting large armies of foreign mercenaries to\n\
+   complete the works of death, desolation and tyranny, already begun\n\
+   with circumstances of cruelty and perfidy scarcely paralleled in the\n\
+   most barbarous ages, and totally unworthy the head of a civilized\n\
+   nation.\n\
+      He has constrained our fellow citizens taken captive on the high seas\n\
+   to bear arms against their country, to become the executioners of their\n\
+   friends and brethren, or to fall themselves by their hands.\n\
+      He has excited domestic insurrections amongst us, and has endeavored\n\
+   to bring on the inhabitants of our frontiers, the merciless Indian\n\
+   savages, whose known rule of warfare, is undistinguished destruction\n\
+   of all ages, sexes and conditions.\n\
+      In every stage of these oppressions we have petitioned for redress in\n\
+   the most humble terms: our repeated petitions have been answered\n\
+   only by repeated injury.  A prince, whose character is thus marked by\n\
+   every act which may define a tyrant, is unfit to be the ruler of a free\n\
+   people.\n\
+      Nor have we been wanting in attention to our British brethren.  We\n\
+   have warned them from time to time of attempts by their legislature to\n\
+   extend an unwarrantable jurisdiction over us.  We have reminded them\n\
+   of the circumstances of our emigration and settlement here.  We have\n\
+   appealed to their native justice and magnanimity, and we have\n\
+   conjured them by the ties of our common kindred to disavow these\n\
+   usurpations, which, would inevitably interrupt our connections and\n\
+   correspondence.  We must, therefore, acquiesce in the necessity, which\n\
+   denounces our separation, and hold them, as we hold the rest of\n\
+   mankind, enemies in war, in peace friends.\n\
+      We, therefore, the representatives of the United States of America, in\n\
+   General Congress, assembled, appealing to the Supreme Judge of the\n\
+   world for the rectitude of our intentions, do, in the name, and by the\n\
+   authority of the good people of these colonies, solemnly publish and\n\
+   declare, that these united colonies are, and of right ought to be free and\n\
+   independent states; that they are absolved from all allegiance to the\n\
+   British Crown, and that all political connection between them and the\n\
+   state of Great Britain, is and ought to be totally dissolved; and that as\n\
+   free and independent states, they have full power to levy war, conclude\n\
+   peace, contract alliances, establish commerce, and to do all other acts\n\
+   and things which independent states may of right do.  And for the support\n\
+   of this declaration, with a firm reliance on the protection of Divine\n\
+   Providence, we mutually pledge to each other our lives, our fortunes\n\
+   and our sacred honor.\n\
+\n\
+   New Hampshire\n\
+      Josiah Bartlett\n\
+      William Whipple\n\
+      Matthew Thornton\n\
+   Massachusetts\n\
+      John Hancock\n\
+      Samual Adams\n\
+      John Adams\n\
+      Robert Treat Paine\n\
+      Elbridge Gerry\n\
+   Rhode Island\n\
+      Stephen Hopkins\n\
+      William Ellery\n\
+   Connecticut\n\
+      Roger Sherman\n\
+      Samuel Huntington\n\
+      William Williams\n\
+      Oliver Wolcott\n\
+   New York\n\
+      William Floyd\n\
+      Philip Livingston\n\
+      Francis Lewis\n\
+      Lewis Morris\n\
+   New Jersey\n\
+      Richard Stockton\n\
+      John Witherspoon\n\
+      Francis Hopkinson\n\
+      John Hart\n\
+      Abraham Clark\n\
+   Pennsylvania\n\
+      Robert Morris\n\
+      Benjamin Rush\n\
+      Benjamin Franklin\n\
+      John Morton\n\
+      George Clymer\n\
+      James Smith\n\
+      George Taylor\n\
+      James Wilson\n\
+      George Ross\n\
+   Delaware\n\
+      Caesar Rodney\n\
+      George Read\n\
+      Thomas McKean\n\
+   Maryland\n\
+      Samuel Chase\n\
+      William Paca\n\
+      Thomas Stone\n\
+      Charles Carroll of Carrollton\n\
+   Virginia\n\
+      George Wythe\n\
+      Richard Henry Lee\n\
+      Thomas Jefferson\n\
+      Benjamin Harrison\n\
+      Thomas Nelson, Jr.\n\
+      Francis Lightfoot Lee\n\
+      Carter Braxton\n\
+   North Carolina\n\
+      William Hooper\n\
+      Joseph Hewes\n\
+      John Penn\n\
+   South Carolina\n\
+      Edward Rutledge\n\
+      Thomas Heyward, Jr.\n\
+      Thomas Lynch, Jr.\n\
+      Arthur Middleton\n\
+   Georgia\n\
+      Button Gwinnett\n\
+      Lyman Hall\n\
+      George Walton\n\
+
+xmcolorscale.widthInc :			10
+xmcolorscale.heightInc :		10
+
+*indexPB.labelString:			Index
+*helpText.value :			Click on an item in the list.
+*helpText.wordWrap :			True
+*helpIndexDialog.close.labelString :	Popdown
+*helpIndexDialog.dialogTitle :		Indexed help
+*helpDialog.dialogTitle :		Context help
+*helpIndexDialog.width:			1000
+*helpIndexDialog.height:		360
+*helpList.items:			Overview, Color sliders, Gang,\
+Set another window, Colormap,\
+Steal Color, Personal colors, Open, Save,The List
+*helpList.itemCount:			10
+
+*xmcolorscale.help.text :		No help yet
+*mainWin.help.text :			No help yet
+*menuBar.help.text :			This is a menu bar.
+*otherWinPB.help.text :			No help yet
+*personalPB.help.text :			No help yet
+*colormapPB.help.text :			No help yet
+*stealPB.help.text :			No help yet
+*contextPB.help.text :			No help yet
+*indexPB.help.text :			No help yet
+*versionPB.help.text :			No help yet
+*fileOpenCascade.help.text :		No help yet
+*fileSaveCascade.help.text :		No help yet
+*quitPB.help.text :			No help yet
+*openPB.help.text :			No help yet
+*savePB.help.text :			No help yet
+*text.help.text :			You can enter other text here.
+*red.help.text :			This will set the red component
+*redtext.help.text :			Enter a number to set the scale here
+*redtb.help.text :			This will [un]gang the red scale
+*green.help.text :			This will set the green component
+*greentext.help.text :			Enter a number to set the scale here
+*greentb.help.text :			This will [un]gang the green scale
+*blueForm.help.text :			This will change the blue component
+*blue.help.text :			This will change the blue component
+*bluetext.help.text :			Enter a number (decimal or 0xhex)to set the scale here
+*bluetb.help.text :			This will [un]gang the blue scale
+*gang.help.text :			This will move all r,g,b scales together
+*radio.help.text :			These buttons will chose which color to set on the text.
+*tb1.help.text :			Set the background color
+*tb2.help.text :			Set the foreground color
+*list.help.text :			This is a list of the colors in rgb.txt
+*helpDialog.help.text :			No help yet
+*helpIndexDialog.help.text :		No help yet
+*helpList.help.text :			No help yet
+*helpText.help.text :			No help yet
+*separator.help.text :			No help yet
+*close.help.text :			No help yet
+*message.help.text :			No help yet
+*oops.help.text :			No help yet

@@ -1,0 +1,2 @@
+You can make a list of personal colors. For permanent use you will have to
+merge them into rgb.txt and compile it (with rgb) so the server will know them.

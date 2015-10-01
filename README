@@ -1,0 +1,87 @@
+
+xmcolorscale
+Gene De Lisa
+gene@bluestone.com
+
+This is just a hack to that I put together while I was teaching Xlib and Motif
+at NASA (KSC). Some of the questions I wanted to answer were "what does
+peachpuff look like" and "what are good combinations of foreground and
+background colors" along with "how do I intergrate this xlib stuff with
+motif?"
+
+It was originally written on decstations using motif 1.1, but is now
+maintainted on a sparc running SunOS 4.1.3, Motif 1.2.4, and X11R5 using the
+Sun K&R compiler.
+
+Installation:
+	There are 2 resource files; one is for color displays. If you
+	set *customization: -color in the file you load with xrdb in your
+	.xsession or .xinitrc then it will read the appropriate one. The
+	included file "custo" is set up to be loaded with xrdb.
+
+	The help files should be put in /usr/lib/X11/help. If don't want to do
+	this, and just want to test them you can set XFILESEARCHPATH to the
+	appropriate dir. The included file ".cshrc" sets this up for you.
+
+	You can specify an alternative to /usr/lib/X11/rgb.txt to be read with
+	the rgbFile resource.
+
+How to use:
+
+    Just move the appropriate scale to change the rgb component. You can also
+    set the value directly in either hex or decimal in the adjacent text
+    field. You can move all the scales at the same time with the gagng sclae
+    (just like an audio mixer). The toggle buttons to the right of the scale
+    control if they are ganged.
+
+    There are 2 toggle buttons that specify if the background (the default) of
+    the text or its foreground is changed. The current value of each (suitable
+    for use in a resource file) is displayed in the text fields right under
+    them.
+
+Options menu items:
+
+	Set another Window:
+
+	To set the current color on another window. This works ok for the root
+	window but badly for things like xterm (because it changed the window
+	background and has no effect on a graphics context).
+
+	Popup personal colors:
+
+	You can keep a list of colors that you like. The Save button on the
+	File menu will save them. You can specify a file to read with the
+	personalRgbFile resource.
+
+	Colormap:
+
+	Popup a window that will display all of the colorcells. Pressing any
+	pushbutton will display its value (both scaled to 64k and 256)
+
+	Steal color:
+
+	Click on another window to "read" its color
+
+
+File menu items:
+
+     Open:
+
+     Read more colors into the scrolled list.
+
+     Save:
+
+     Save the personal colors to a file.
+				
+
+				
+Some "hidden" features:
+
+	The gang scale has an action to center the scale if you press the key
+	"c".
+
+	The list of colors will search incrementally for a color if you start
+	typing on it. The search is restarted by pressing Escape or just
+	leaving the list (losing keyboard focus).
+
+	There is context sensitive help for a lot of the buttons but not all.

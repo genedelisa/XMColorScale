@@ -1,0 +1,35 @@
+gcc -c -g  createWidgets.c
+createWidgets.c: In function `listKeys':
+createWidgets.c:538: warning: assignment makes integer from pointer without a cast
+createWidgets.c: In function `createList':
+createWidgets.c:592: warning: passing arg 4 of `XtAddEventHandler' from incompatible pointer type
+createWidgets.c: In function `createWidgets':
+createWidgets.c:964: warning: passing arg 3 of `XtAddCallback' from incompatible pointer type
+createWidgets.c:965: warning: passing arg 3 of `XtAddCallback' from incompatible pointer type
+createWidgets.c:966: warning: passing arg 3 of `XtAddCallback' from incompatible pointer type
+createWidgets.c:968: warning: passing arg 3 of `XtAddCallback' from incompatible pointer type
+createWidgets.c:969: warning: passing arg 3 of `XtAddCallback' from incompatible pointer type
+createWidgets.c:970: warning: passing arg 3 of `XtAddCallback' from incompatible pointer type
+createWidgets.c:982: warning: passing arg 3 of `XtAddCallback' from incompatible pointer type
+createWidgets.c:983: warning: passing arg 3 of `XtAddCallback' from incompatible pointer type
+createWidgets.c:1008: warning: passing arg 3 of `XtAddCallback' from incompatible pointer type
+createWidgets.c:1009: warning: passing arg 3 of `XtAddCallback' from incompatible pointer type
+createWidgets.c:1040: warning: passing arg 3 of `XtAddCallback' from incompatible pointer type
+createWidgets.c:1042: warning: passing arg 3 of `XtAddCallback' from incompatible pointer type
+createWidgets.c:1050: warning: passing arg 3 of `XtAddCallback' from incompatible pointer type
+createWidgets.c:1056: warning: passing arg 3 of `XtAddCallback' from incompatible pointer type
+createWidgets.c:1058: warning: passing arg 3 of `XtAddCallback' from incompatible pointer type
+createWidgets.c:1061: warning: passing arg 3 of `XtAddCallback' from incompatible pointer type
+createWidgets.c:1063: warning: passing arg 3 of `XtAddCallback' from incompatible pointer type
+createWidgets.c:1065: warning: passing arg 3 of `XtAddCallback' from incompatible pointer type
+createWidgets.c: In function `createOptionMenu':
+createWidgets.c:1127: warning: passing arg 3 of `XtAddCallback' from incompatible pointer type
+createWidgets.c:1147: warning: passing arg 3 of `XtAddCallback' from incompatible pointer type
+createWidgets.c: In function `managePersonalList':
+createWidgets.c:1323: warning: passing arg 3 of `XtAddCallback' from incompatible pointer type
+createWidgets.c:1325: warning: passing arg 3 of `XtAddCallback' from incompatible pointer type
+createWidgets.c:1327: warning: passing arg 3 of `XtAddCallback' from incompatible pointer type
+createWidgets.c:1363: warning: passing arg 3 of `XtAddCallback' from incompatible pointer type
+createWidgets.c:1366: warning: passing arg 3 of `XtAddCallback' from incompatible pointer type
+createWidgets.c:1368: warning: passing arg 3 of `XtAddCallback' from incompatible pointer type
+gcc -o xmcolorscale main.o colorinfo.o help.o createWidgets.o  -lXm -lXmu -lXt -lX11

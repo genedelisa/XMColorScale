@@ -1,0 +1,73 @@
+#!/bin/cat
+black		RGB:00/00/00
+white		RGB:ff/ff/ff
+red		RGB:ff/00/00
+green		RGB:00/ff/00
+blue		RGB:00/00/ff
+cyan		RGB:00/ff/ff
+magenta		RGB:ff/00/d3
+yellow		RGB:ff/ff/00
+orange		RGB:ff/8a/00
+green yellow		RGB:9f/d3/00
+spring green		RGB:00/ff/9f
+sky blue		RGB:00/8a/ff
+violet		RGB:94/00/d3
+violet red		RGB:ff/00/94
+dim gray		RGB:69/69/69
+gray		RGB:ae/ae/ae
+grey		RGB:ae/ae/ae
+light grey		RGB:d3/d3/d3
+light gray		RGB:d3/d3/d3
+dim grey		RGB:69/69/69
+medium violet red		RGB:c7/15/85
+blue violet		RGB:72/21/bc
+orchid		RGB:da/6b/d4
+medium orchid		RGB:ac/4d/a6
+dark orchid		RGB:6a/25/66
+maroon		RGB:67/07/48
+plum		RGB:4c/2e/57
+thistle		RGB:92/3e/70
+light blue		RGB:ab/c5/ff
+medium blue		RGB:3d/62/d0
+cornflower blue		RGB:64/95/ed
+navy blue		RGB:00/00/8e
+navy		RGB:00/00/8e
+midnight blue		RGB:0c/3e/63
+turquoise		RGB:48/d1/cc
+medium turquoise		RGB:3e/ac/b5
+dark turquoise		RGB:1d/6f/75
+light steel blue		RGB:34/98/ca
+steel blue		RGB:37/79/99
+cadet blue		RGB:7e/7d/a0
+slate blue		RGB:75/86/be
+medium slate blue		RGB:5f/6d/9a
+dark slate blue		RGB:33/3e/63
+dark slate grey		RGB:3c/40/4a
+dark slate gray		RGB:3c/40/4a
+dark green		RGB:00/53/00
+dark olive green		RGB:4f/4f/2f
+forest green		RGB:55/c0/34
+medium forest green		RGB:6b/8e/23
+lime green		RGB:2e/9b/1c
+medium spring green		RGB:3c/8d/23
+pale green		RGB:98/ff/98
+sea green		RGB:2b/a7/70
+medium sea green		RGB:1b/86/56
+aquamarine		RGB:29/ab/97
+medium aquamarine		RGB:15/87/76
+yellow green		RGB:4b/d3/00
+gold		RGB:fe/c5/44
+medium goldenrod		RGB:b8/86/0b
+goldenrod		RGB:da/a5/20
+wheat		RGB:e5/c7/75
+khaki		RGB:bd/a7/6b
+tan		RGB:b0/9b/7d
+sandy brown		RGB:b2/8f/56
+sienna		RGB:8e/6b/23
+brown		RGB:67/43/00
+indian red		RGB:65/2e/2e
+pink		RGB:ff/ae/b9
+coral		RGB:f8/89/75
+salmon		RGB:f8/6d/68
+orange red		RGB:e2/41/2a
+firebrick		RGB:88/12/0d
